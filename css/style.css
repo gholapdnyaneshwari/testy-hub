@@ -25,3 +25,29 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.nav-link-container {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.auth-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.main-image {
+    height: 500px;
+    margin-top: 20px;
+
+}
+
+.main-containt-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
