@@ -54,7 +54,22 @@ body {
 
 .main-containt-container {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+
+}
+
+.main-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-headline {
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'cursive';
 
 }
