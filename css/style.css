@@ -55,6 +55,7 @@ body {
 .main-containt-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
@@ -79,4 +80,23 @@ body {
     font-style: italic;
     font-family: 'cursive';
 
+}
+.main-button-container{
+    display: flex;
+    gap: 20px;
+}
+.get-started-button{
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.get-started-button:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
