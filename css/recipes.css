@@ -4,3 +4,60 @@
     font-size: 2.5cm;
     color: #333;
 }
+.recipes-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.recipe-image-card{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: white;
+
+}
+.puranpoli-img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.recipe-image-heading{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    margin-top: 4px;
+
+}
+.recipe-image-descreption{
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.recipe-image-text-conrtenar{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.view-recipe-button{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
